@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calcaltor</title>
+  
+<link rel="stylesheet" type="text/css" href="calc.css"
+</head>
+<body>
+  <div id="continar">
+    <input type="text" id="textbox" value="0" disabled="">
+<div class="btn">
+  <button class="btnn" ontouchstart="clearDisplay()" id="clear">c</button>
+  <button class="btnn" ontouchstart="appendTotextbox('(')" id="prent">()</button>
+  <button class="btnn" ontouchstart="appendTotextbox('%')" id="fisat">%</button>
+  <button class="btnn" ontouchstart="appendTotextbox('/')" id="taqsim">÷</button>
+</div>
+<div class="btn">
+  <button class="btnn" ontouchstart="appendTotextbox('7')">7</button>
+  <button class="btnn" ontouchstart="appendTotextbox('8')">8</button>
+  <button class="btnn" ontouchstart="appendTotextbox('9')">9</button>
+  <button class="btnn" ontouchstart="appendTotextbox('*')" id="xix">x</button>
+</div>
+<div class="btn">
+  <button class="btnn"ontouchstart="appendTotextbox('4')">4</button>
+  <button class="btnn" ontouchstart="appendTotextbox('5')">5</button>
+  <button class="btnn" ontouchstart="appendTotextbox('6')">6</button>
+  <button class="btnn" ontouchstart="appendTotextbox('-')" id="manfi">-</button>
+</div>
+<div class="btn">
+  <button class="btnn" ontouchstart="appendTotextbox('1')">1</button>
+  <button class="btnn" ontouchstart="appendTotextbox('2')">2</button>
+  <button class="btnn" ontouchstart="appendTotextbox('3')">3</button>
+  <button class="btnn" ontouchstart="appendTotextbox('+')" id="jam">+</button>
+</div>
+<div class="btn">
+  <button class="btnn">+/-</button>
+  <button class="btnn" ontouchstart="appendTotextbox('0')">0</button>
+  <button class="btnn" ontouchstart="appendTotextbox('.')">.</button>
+  <button class="btnn" ontouchstart="calculate()" id="eq">=</button>
+</div>
+   
+  </div>
+  <script src="test.js">
+
+</script>
+</body>
+</html>

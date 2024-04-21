@@ -1,0 +1,57 @@
+#continar{
+    width:350px;
+    height:500px;
+    border:1px groove #ccc;
+    margin:auto;
+    text-align:center;
+    box-shadow:1px 2px 2px 4px rgb(100 130 170);
+    border-radius:10px;
+  }
+  #textbox{
+    width:335px;
+    height:45px;
+    border-radius:10px;
+    margin-top:5px;
+    font-size:35px;
+    text-align: right;
+    
+  }
+  .btn{
+    margin:10px;
+  }
+  .btnn{
+    margin:13px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    font-size:30px;
+    
+  }
+#eq{
+  background-color: greenyellow;
+}
+#clear{
+  color:red;
+}
+#prent
+{
+  color:green;
+}
+#fisat{
+  
+  color:green;
+}
+#taqsim{
+ color:green; 
+}
+#xix
+{
+  color:green;
+}
+#manfi{
+  color:green;
+}
+#jam{
+  color:green;
+}
